@@ -1,41 +1,18 @@
-<!--
-Licença MIT
-
-Copyright (c) 2025 RENATA VERAS VENTURIM
-
-MIT License
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-**Atribution Clause:**
-Users of this software are required to maintain the original credits and attributions of the project in any copies or derivatives of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
--->
-
-
 <!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
-    <base target="_top">
-    <?!=Chamar("Estilo1") ?>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+  <base target="_top">
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+
+  <meta charset="UTF-8">
+  
+  <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+  <title>Agendamento PROPPI</title>
 </head>
 
 <body>
@@ -93,7 +70,7 @@ SOFTWARE.
         emailInput = document.getElementById('email'); nomeInput = document.getElementById('nome'); unidadeInput = document.getElementById('unidade'); emailInput.addEventListener("input", function () { this.value = this.value.toUpperCase(); }); nomeInput.addEventListener("input", function () { this.value = this.value.toUpperCase(); }); unidadeInput.addEventListener("input", function () { this.value = this.value.toUpperCase(); }); 
         
         </script>
-        <?!=Chamar("Form-js1")?>
+        <script src="script.js"></script>
     </main>
     <footer>
         <p>&copy; 2025 Universidade Federal Fluminense. Todos os direitos reservados.</p> <br>
@@ -104,11 +81,7 @@ SOFTWARE.
         <p id="contact">Contato: certificado.proppi@id.uff.br</p> <br>
         
     </footer>
+
 </body>
 
 </html>
-
-
-
-
-

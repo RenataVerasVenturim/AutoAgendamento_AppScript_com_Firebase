@@ -51,6 +51,7 @@ RNF04 – O sistema deve seguir a LGPD, garantindo proteção de dados pessoais.
 - Planilhas Google
 - Google Agenda
 - Gmail
+- Conta Firebase
 
 ## Passo a passo
 
